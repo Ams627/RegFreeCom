@@ -23,7 +23,7 @@
 === HKEY_CLASSES_ROOT 
 
 [quote, Microsoft]
-----
+____
 The HKEY_CLASSES_ROOT (HKCR) key contains file name extension associations and COM class registration information such as 
 ProgIDs, CLSIDs, and IIDs. It is primarily intended for compatibility with the registry in 16-bit Windows.+
 
@@ -32,7 +32,7 @@ The HKEY_LOCAL_MACHINE\Software\Classes key contains default settings that can a
 HKEY_CURRENT_USER\Software\Classes key contains settings that apply only to the interactive user. The HKEY_CLASSES_ROOT 
 key provides a view of the registry that merges the information from these two sources. HKEY_CLASSES_ROOT also provides this 
 merged view for applications designed for previous versions of Windows.
-----
+____
 
 Can COM DLLs be registered in HKCU as well as HKCR?
 
